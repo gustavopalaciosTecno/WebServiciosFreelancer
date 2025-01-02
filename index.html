@@ -4,42 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseñador Freelancer</title>
-    <style>
-        header{
-            background-color: #3ac;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            font-size: 2rem;
-            box-shadow: 2px 3px 1px 15px #ccc;
-            border: 2px solid #abc;
-            letter-spacing: 5px;
-            text-transform: uppercase;
-            color: #bcc;
-            border-radius: 90px;
-            text-align: center;
-        }
-        nav,a{
-            float: left;
-            margin: 8px;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-weight: bold;
-            box-shadow: 15px 10px 8px #bac;
-            color: #a80c0c;
-        }
-        section{
-            border: 1px solid #c56a6a;
-        }
-        h2{
-            margin: 58px;
-            text-align: center;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
-    </style>
-    
+    <link rel="preload" href="./css/normalize.css" as="style">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preload" href="./css/styles.css" as="style">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+    <img data-identificador = "img" texto-mostrar="batman">
     <header>
-        <h1>Néstor Gustavo Freelancer</h1>
+        <h1 class="titulo">Néstor Gustavo<span>Freelancer</span></h1>
     </header>
     <nav>
         <a href="#">Inicio</a>
@@ -49,7 +25,7 @@
     </nav>
    
     <section>
-        <h2>Diseño y Desarrollo Web Freeelancer</h2>
+        <h2 class="titulo">Diseño y Desarrollo Web <span>Freelancer</span></h2>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#FFC107" stroke-linecap="round" stroke-linejoin="round" width="88" height="88" stroke-width="1.5"> 
             <path d="M12 9.5m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0"></path> 
             <path d="M6.428 12.494l7.314 -9.252"></path> 
@@ -59,7 +35,7 @@
           </svg>
           
         <p>Charata - Chaco</p>
-
+        
         <a href="#">Contactar</a>
     </section>
     <main>
