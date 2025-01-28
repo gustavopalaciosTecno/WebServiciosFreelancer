@@ -80,28 +80,31 @@
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ratione enim nostrum necessitatibus suscipit sunt et, facilis, eum hic exercitationem possimus, porro quis pariatur corporis voluptates earum. Repellat quidem similique voluptatibus, cumque dignissimos delectus nihil molestiae dolorem consectetur doloribus sed dolore commodi tenetur, labore iusto.</p>
             </section>
         </div> <!--Cierre de la clase de servicios-->
-        </main>
+     
     <section>
         <h2>Contacto</h2>
-        <form action="#">
+        <form class="formulario">
             <fieldset>
                 <legend>Contáctanos llenando los campos</legend>
-                <div>
+                <div class="contenedor-campos">
+                    <div class="campo">
                     <label for="nombre">Nombre:</label>
-                <input type="text" placeholder="tu nombre">
-                </div>
-                <div>
-                    <label for="telefono">Teléfono:</label>
-                <input type="tel" placeholder="tu teléfono">
-                </div>
-                <div>
-                    <label for="correo">Correo:</label>
-                <input type="email" placeholder="tu email">
-                </div>      
-                <div>
-                <label for="mensaje">Mensaje:</label>
-                <textarea name="#" id="#"></textarea>
-                </div>          
+                    <input type="text" placeholder="tu nombre">
+                    </div>
+                    <div class="campo">
+                        <label for="telefono">Teléfono:</label>
+                    <input type="tel" placeholder="tu teléfono">
+                    </div>
+                    <div class="campo">
+                        <label for="correo">Correo:</label>
+                    <input type="email" placeholder="tu email">
+                    </div>      
+                    <div class="campo">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="#" id="#"></textarea>
+                </div>   
+                
+            </div><!--contendor de campos-->
                 <div>
                     <input type="submit" value="Enviar">
                 </div>
@@ -109,6 +112,7 @@
             </fieldset>
         </form>
     </section>
+</main>
    <footer>
         <p>Todos los derechos reservados Néstor Gustavo Palacios Meyer &copy;</p>
     </footer>
